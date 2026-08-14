@@ -1,0 +1,20 @@
+UPDATE v4.1 — ENTRY TIMING GUARD
+
+Gunakan pada project v4 yang sudah memiliki data 962 saham.
+
+1. Stop RUN.bat dengan Ctrl+C.
+2. Extract ZIP UPDATE v4.1.
+3. Copy semua isi folder UPDATE ke folder project dashboard yang sedang dipakai.
+4. Pilih Replace files in destination.
+5. Jangan hapus folder app/data.
+6. Jalankan RUN.bat.
+7. Chrome: Ctrl+F5.
+8. Klik "Scan Ulang" sekali agar snapshot 962 saham dihitung ulang dengan rule v4.1.
+
+Perubahan:
+- Candlestick pattern untuk entry hanya fresh maksimal 3 candle (default).
+- Pattern lama tetap terlihat di chart, tetapi ditandai HISTORIS dan tidak menjadi trigger entry.
+- Buy on Retracement / Buy on Weakness melewati Location Gate.
+- Jika harga sudah terlalu dekat Resistance atau ruang ke Resistance buruk, keputusan menjadi JANGAN KEJAR.
+- Buy on Breakout kedaluwarsa jika harga sudah terlalu jauh dari level breakout.
+- Semua threshold configurable di app/config.py / .env.

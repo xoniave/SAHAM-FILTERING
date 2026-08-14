@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IDX Decision Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="brand">IDX Decision Dashboard</div>
+      <div class="subtitle">Cycle • Structure • Support/Resistance • Price/Volume • Pattern • Entry/Exit</div>
+    </div>
+    <div class="top-status">
+      <div id="autoUpdateBadge" class="mini-status">Pembaruan EOD: memeriksa…</div>
+      <div id="providerBadge" class="provider-badge">Memuat status…</div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="all">1. Semua IDX</button>
+    <button class="tab" data-tab="classify">2. Klasifikasi</button>
+    <button class="tab" data-tab="portfolio">3. Portofolio Saya</button>
+    <button class="tab" data-tab="rules">4. Rule Book</button>
+  </nav>
+
+  <div id="dataNotice" class="data-notice" style="display:none"></div>
+
+  <main>
+    <section id="view-all" class="view active">
+      <div class="card toolbar">
+        <input id="searchInput" class="input" placeholder="Cari kode / nama saham…">
+        <select id="decisionFilter" class="input">
+          <option value="">Semua keputusan</option>
+          <option value="READY">Siap Entry</option>
+          <option value="WATCH">Pantau</option>
+          <option value="HOLD">Hold</option>
+          <option value="SELL">Jual</option>
+          <option value="AVOID">Hindari</option>
+          <option value="WAIT">Tunggu</option>
+        </select>
+        <button id="refreshScanner" class="btn primary">Scan Ulang</button>
+      </div>
+
+      <div id="scanProgressCard" class="card scan-progress-card">
+        <div class="scan-progress-head">
+          <div><b id="scanProgressTitle">Status Scanner</b><div id="scanProgressText" class="muted small">Memeriksa…</div></div>
+          <div id="scanProgressPct" class="scan-pct">0%</div>
+        </div>
+        <div class="progress-track"><div id="scanProgressBar" class="progress-fill" style="width:0%"></div></div>
+      </div>
+
+      <div id="scannerMetrics" class="metrics"></div>
+      <div class="card table-card">
+        <div class="section-head">
+          <div><h2>Semua Saham</h2><p>Klik saham untuk membuka chart interaktif, alasan keputusan, Support/Resistance aktif, dan candlestick/chart pattern.</p></div>
+          <div id="scannerStatus" class="muted"></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Saham</th><th>Harga</th><th>Perubahan</th><th>Siklus Makro</th><th>Trend</th><th>RVOL</th><th>Pola</th><th>Keputusan</th><th>Keyakinan</th></tr></thead>
+            <tbody id="scannerBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-classify" class="view">
+      <div class="card section-head"><div><h2>Klasifikasi</h2><p>Dikelompokkan berdasarkan keputusan Rule Engine terbaru.</p></div><button id="refreshClasses" class="btn">Muat Ulang</button></div>
+      <div id="classificationGrid" class="classification-grid"></div>
+    </section>
+
+    <section id="view-portfolio" class="view">
+      <div class="card portfolio-form">
+        <input id="pfSymbol" class="input" placeholder="Kode, contoh EXCL">
+        <input id="pfEntry" class="input" type="number" placeholder="Average entry">
+        <input id="pfLots" class="input" type="number" placeholder="Lot">
+        <select id="pfStyle" class="input"><option>SWING</option><option>SUPER</option></select>
+        <button id="pfAdd" class="btn primary">Tambah / Update</button>
+      </div>
+      <div class="card table-card">
+        <div class="section-head"><div><h2>Portofolio Saya</h2><p>Keputusan exit berbeda untuk SWING dan SUPER / trend following.</p></div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Saham</th><th>Avg Entry</th><th>Harga</th><th>P/L</th><th>Lot</th><th>Style</th><th>Cycle</th><th>Keputusan</th><th></th></tr></thead>
+            <tbody id="portfolioBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-rules" class="view">
+      <div class="card section-head"><div><h2>Master Rule Book</h2><p>Context → Structure → Location → Confirmation → Action.</p></div></div>
+      <div id="ruleGrid" class="rule-grid"></div>
+    </section>
+  </main>
+
+  <div id="drawerBackdrop" class="drawer-backdrop"></div>
+  <aside id="detailDrawer" class="drawer">
+    <div class="drawer-head">
+      <div>
+        <div class="symbol-title"><span id="detailSymbol">—</span><span id="detailName"></span></div>
+        <div id="detailSubtitle" class="muted"></div>
+      </div>
+      <button id="closeDrawer" class="btn">Tutup ✕</button>
+    </div>
+    <div class="drawer-body">
+      <div class="detail-metrics" id="detailMetrics"></div>
+
+      <div id="detailLayout" class="detail-layout">
+        <div id="chartColumn">
+          <div id="chartShell" class="card chart-shell">
+            <div class="chart-toolbar">
+              <div>
+                <strong>Chart Interaktif + Annotation Engine</strong>
+                <div class="muted small">Scroll mouse = zoom horizontal • drag chart = geser waktu • drag skala harga kanan = zoom/geser vertikal.</div>
+              </div>
+              <div class="chart-actions">
+                <button id="range6m" class="btn compact">6 Bulan</button>
+                <button id="range1y" class="btn compact">1 Tahun</button>
+                <button id="rangeAll" class="btn compact">Semua</button>
+                <button id="fitChart" class="btn compact">Fit</button>
+                <button id="expandChart" class="btn compact">Perbesar Chart</button>
+              </div>
+            </div>
+            <div class="layer-toggles">
+              <label><input type="checkbox" id="toggleLevels" checked> Support/Resistance</label>
+              <label><input type="checkbox" id="toggleMA" checked> MA</label>
+              <label><input type="checkbox" id="toggleStructure" checked> HH/HL/LH/LL</label>
+              <label><input type="checkbox" id="togglePatterns" checked> Pattern</label>
+            </div>
+            <div class="chart-stage-badge" id="chartStageBadge"></div>
+            <div id="priceChart" class="interactive-chart"><div class="chart-loading">Memuat chart…</div></div>
+            <div class="chart-legend" id="chartLegend"></div>
+            <div class="chart-attribution">Chart interaktif menggunakan <a href="https://www.tradingview.com/" target="_blank" rel="noreferrer">TradingView Lightweight Charts™</a>.</div>
+          </div>
+
+          <div class="card levels-card">
+            <div class="two-col">
+              <div><h3>Support Aktif</h3><div id="supportList"></div></div>
+              <div><h3>Resistance Aktif</h3><div id="resistanceList"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="detailSide" class="side-stack">
+          <div class="card"><h3>Keputusan</h3><div id="decisionBox"></div></div>
+          <div class="card"><h3>Kenapa?</h3><ol id="reasonList" class="reason-list"></ol></div>
+          <div class="card"><h3>Peringatan</h3><ul id="warningList" class="reason-list"></ul></div>
+          <div class="card"><h3>Candlestick & Chart Pattern</h3><div id="patternList"></div></div>
+          <div class="card"><h3>Trigger Berikutnya</h3><div id="nextTrigger" class="callout"></div></div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <script src="https://cdn.jsdelivr.net/npm/lightweight-charts@5.0.1/dist/lightweight-charts.standalone.production.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

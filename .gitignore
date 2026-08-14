@@ -4,7 +4,6 @@ __pycache__/
 app/data/dashboard.sqlite3
 .env
 
-app/data/history/
 app/data/*.db
 app/data/*.sqlite
 app/data/*.sqlite3
@@ -13,3 +12,5 @@ __pycache__/
 .venv/
 venv/
 .env
+app/data/intraday_snapshot.json
+site/

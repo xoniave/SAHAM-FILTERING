@@ -1,0 +1,86 @@
+name: Update IDX Daily Confirmed
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Senin - Jumat, setelah 18:00 WIB
+    - cron: "30 18 * * 1-5"
+      timezone: "Asia/Jakarta"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  update-eod:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ambil repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update Daily Confirmed IDX
+        run: |
+          python tools/sync_real_data.py --batch-size 60
+
+      - name: Simpan Daily data ke repository
+        run: |
+          git config user.name "IDX Dashboard Bot"
+          git config user.email "actions@github.com"
+
+          git add -A app/data/history
+          git add app/data/symbols.csv
+          git add app/data/latest_idx_snapshot.json
+          git add app/data/sync_report.json
+          git add app/data/scanner_snapshot.json
+
+          if git diff --cached --quiet; then
+            echo "Tidak ada data Daily baru."
+          else
+            git commit -m "data: update IDX Daily confirmed"
+            git push
+          fi
+
+      - name: Build dashboard final EOD
+        run: |
+          python tools/build_github_pages.py
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: update-eod
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Publish dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4

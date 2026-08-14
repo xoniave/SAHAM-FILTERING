@@ -1,0 +1,84 @@
+name: Update IDX Dashboard
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Senin - Kamis, Sesi I: 09:00 - 12:00
+    - cron: "*/10 9-11 * * 1-4"
+      timezone: "Asia/Jakarta"
+    - cron: "0 12 * * 1-4"
+      timezone: "Asia/Jakarta"
+
+    # Senin - Kamis, Sesi II: 13:30 - 15:50
+    - cron: "30,40,50 13 * * 1-4"
+      timezone: "Asia/Jakarta"
+    - cron: "*/10 14-15 * * 1-4"
+      timezone: "Asia/Jakarta"
+
+    # Jumat, Sesi I: 09:00 - 11:30
+    - cron: "*/10 9-10 * * 5"
+      timezone: "Asia/Jakarta"
+    - cron: "0,10,20,30 11 * * 5"
+      timezone: "Asia/Jakarta"
+
+    # Jumat, Sesi II: 14:00 - 15:50
+    - cron: "*/10 14-15 * * 5"
+      timezone: "Asia/Jakarta"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ambil source code
+        uses: actions/checkout@v6
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ambil data market terbaru
+        run: |
+          python tools/sync_intraday.py
+
+      - name: Build website GitHub Pages
+        run: |
+          python tools/build_github_pages.py
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4

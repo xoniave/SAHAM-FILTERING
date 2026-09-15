@@ -28,7 +28,7 @@ AKRA,PT AKR Corporindo Tbk.,Energi,"Minyak, Gas & Batu Bara",Minyak & Gas,Penyim
 AKSI,PT Mineral Sumberdaya Mandiri Tbk,Transportasi & Logistik,Logistik & Pengantaran,Logistik & Pengantaran,Logistik & Pengantaran,Pengembangan
 ALDO,Alkindo Naratama Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Utama
 ALII,PT Ancara Logistics Indonesia Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Distribusi Batu Bara,Utama
-ALKA,Alakasa Industrindo Tbk,Barang Baku,Barang Baku,Logam & Mineral,Alumunium,Pemantauan Khusus
+ALKA,Alakasa Industrindo Tbk,Barang Baku,Barang Baku,Logam & Mineral,Alumunium,Pengembangan
 ALMI,Alumindo Light Metal Industry Tbk,Barang Baku,Barang Baku,Logam & Mineral,Alumunium,Pemantauan Khusus
 ALTO,Tri Banyan Tirta Tbk,Barang Konsumen Primer,Makanan & Minuman,Minuman,Minuman Ringan,Pemantauan Khusus
 AMAG,Asuransi Multi Artha Guna Tbk,Keuangan,Asuransi,Asuransi,Asuransi Umum,Utama
@@ -50,7 +50,7 @@ APLI,Asiaplast Industries Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia 
 APLN,PT Agung Podomoro Land Tbk.,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Utama
 ARCI,PT Archi Indonesia Tbk,Barang Baku,Barang Baku,Logam & Mineral,Emas,Pengembangan
 AREA,PT Dunia Virtual Online Tbk,Teknologi,Perangkat Lunak & Jasa TI,Jasa & Konsultan TI,Jasa & Konsultan TI,Pengembangan
-ARGO,Argo Pantes Tbk,Barang Konsumen Non-Primer,Pakaian & Barang Mewah,Pakaian & Barang Mewah,Tekstil,Pengembangan
+ARGO,Argo Pantes Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
 ARII,Atlas Resources Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pengembangan
 ARKA,PT Arkha Jayanti Persada Tbk.,Perindustrian,Barang Perindustrian,Mesin,Mesin & Komponen Perindustrian,Pemantauan Khusus
 ARKO,PT Arkora Hydro Tbk.,Infrastruktur,Utilitas,Utilitas Listrik,Utilitas Listrik,Pengembangan
@@ -126,7 +126,7 @@ BGTG,PT Bank Ganesha Tbk.,Keuangan,Bank,Bank,Bank,Utama
 BHAT,PT Bhakti Multi Artha Tbk.,Keuangan,Asuransi,Asuransi,Asuransi Jiwa,Pengembangan
 BHIT,PT MNC Asia Holding Tbk,Perindustrian,Perusahaan Holding Multi Sektor,Perusahaan Holding Multi-sektor,Perusahaan Holding Multi-sektor,Pemantauan Khusus
 BIKA,PT Binakarya Jaya Abadi Tbk.,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pemantauan Khusus
-BIKE,PT Bhineka Inovasi Ketahanan Energi Tbk,Barang Konsumen Non-Primer,Barang Rekreasi,Peralatan Olah Raga & Barang Hobi,Peralatan Olah Raga & Barang Hobi,Pengembangan
+BIKE,PT Bhineka Inovasi Ketahanan Energi Tbk,Barang Konsumen Non-Primer,Barang Rekreasi,Peralatan Olah Raga & Barang Hobi,Peralatan Olah Raga & Barang Hobi,Pemantauan Khusus
 BIMA,Primarindo Asia Infrastructure Tbk,Barang Konsumen Non-Primer,Pakaian & Barang Mewah,Pakaian & Barang Mewah,Alas Kaki,Pemantauan Khusus
 BINA,PT Bank Ina Perdana Tbk.,Keuangan,Bank,Bank,Bank,Utama
 BINO,PT Perma Plasindo Tbk,Perindustrian,Jasa Perindustrian,Jasa Komersial,Peralatan Kantor,Pengembangan
@@ -170,7 +170,7 @@ BRIS,PT Bank Syariah Indonesia (Persero) Tbk,Keuangan,Bank,Bank,Bank,Utama
 BRMS,Bumi Resources Minerals Tbk,Barang Baku,Barang Baku,Logam & Mineral,Logam & Mineral Lainnya,Utama
 BRNA,Berlina Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Pengembangan
 BRPT,Barito Pacific Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Dasar,Utama
-BRRC,PT Raja Roti Cemerlang Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pengembangan
+BRRC,PT Raja Roti Cemerlang Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pemantauan Khusus
 BSBK,PT Wulandari Bangun Laksana Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
 BSDE,PT Bumi Serpong Damai Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Utama
 BSIM,Bank Sinarmas Tbk,Keuangan,Bank,Bank,Bank,Utama
@@ -226,7 +226,7 @@ CMPP,PT AirAsia Indonesia Tbk,Transportasi & Logistik,Transportasi,Maskapai Pene
 CMRY,PT Cisarua Mountain Dairy Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Produk Susu Olahan,Utama
 CNKO,Exploitasi Energi Indonesia Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Distribusi Batu Bara,Pemantauan Khusus
 CNMA,PT Nusantara Sejahtera Raya Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,Fasilitas Rekreasi & Olah Raga,Pengembangan
-COAL,PT Black Diamond Resources Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pengembangan
+COAL,PT Black Diamond Resources Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pemantauan Khusus
 COCO,PT Wahana Interfood Nusantara Tbk.,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pengembangan
 COIN,PT Indokripto Koin Semesta Tbk,Keuangan,Perusahaan Holding & Investasi,Perusahaan Holding & Investasi,Perusahaan Holding Keuangan,Pengembangan
 COWL,COWELL DEVELOPMENT Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pemantauan Khusus
@@ -237,7 +237,7 @@ CRAB,PT Toba Surimi Industries Tbk,Barang Konsumen Primer,Makanan & Minuman,Prod
 CRSN,PT Carsurin Tbk,Perindustrian,Jasa Perindustrian,Jasa Profesional,Jasa Penelitian & Konsultasi,Pengembangan
 CSAP,Catur Sentosa Adiprana Tbk,Barang Konsumen Non-Primer,Perdagangan Ritel,Ritel Khusus,Ritel Barang Rumah Tangga,Pengembangan
 CSIS,PT Cahayasakti Investindo Sukses Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
-CSMI,PT Cipta Selera Murni Tbk.,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,Rumah Makan,Pengembangan
+CSMI,PT Cipta Selera Murni Tbk.,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,Rumah Makan,Pemantauan Khusus
 CSRA,PT Cisadane Sawit Raya Tbk.,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,Perkebunan & Tanaman Pangan,Pengembangan
 CTBN,Citra Tubindo Tbk,Barang Baku,Barang Baku,Logam & Mineral,Baja & Besi,Pengembangan
 CTRA,Ciputra Development Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Utama
@@ -271,9 +271,9 @@ DMND,PT Diamond Food Indonesia Tbk.,Barang Konsumen Primer,Perdagangan Ritel Bar
 DNAR,PT Bank Oke Indonesia Tbk.,Keuangan,Bank,Bank,Bank,Pengembangan
 DNET,PT Indoritel Makmur Internasional Tbk.,Keuangan,Perusahaan Holding & Investasi,Perusahaan Holding & Investasi,Perusahaan Investasi,Utama
 DOID,PT BUMA Internasional Grup Tbk,Energi,"Minyak, Gas & Batu Bara","Pendukung Minyak, Gas & Batu Bara","Jasa & Perlengkapan Minyak, Gas & Batu Bara",Pengembangan
-DOOH,PT Era Media Sejahtera Tbk,Barang Konsumen Non-Primer,Media & Hiburan,Media,Periklanan,Pengembangan
+DOOH,PT Era Media Sejahtera Tbk,Barang Konsumen Non-Primer,Media & Hiburan,Media,Periklanan,Pemantauan Khusus
 DOSS,PT Global Sukses Digital Tbk,Barang Konsumen Non-Primer,Barang Rekreasi,Barang Elektronik Konsumen,Barang Elektronik Konsumen,Pengembangan
-DPNS,Duta Pertiwi Nusantara Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Khusus,Pengembangan
+DPNS,Duta Pertiwi Nusantara Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Khusus,Pemantauan Khusus
 DPUM,PT Dua Putra Utama Makmur Tbk.,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,"Ikan, Daging & Produk Unggas",Pengembangan
 DRMA,PT Dharma Polimetal Tbk,Barang Konsumen Non-Primer,Otomotif & Komponen Otomotif,Komponen Otomotif,Suku Cadang Otomotif,Utama
 DSFI,Dharma Samudera Fishing Ind. Tbk,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,"Ikan, Daging & Produk Unggas",Pengembangan
@@ -286,7 +286,7 @@ DWGL,PT Dwi Guna Laksana Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Distribu
 DYAN,PT Dyandra Media International Tbk.,Perindustrian,Jasa Perindustrian,Jasa Komersial,Jasa Pendukung Bisnis,Pengembangan
 EAST,PT Eastparc Hotel Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pengembangan
 ECII,PT Electronic City Indonesia Tbk.,Barang Konsumen Non-Primer,Perdagangan Ritel,Ritel Khusus,Ritel Elektronik,Pengembangan
-EDGE,PT Indointernet Tbk.,Teknologi,Perangkat Lunak & Jasa TI,Aplikasi & Jasa Internet,Jasa & Konsultan TI,Pengembangan
+EDGE,PT Indointernet Tbk.,Teknologi,Perangkat Lunak & Jasa TI,Aplikasi & Jasa Internet,Jasa & Konsultan TI,Pemantauan Khusus
 EKAD,Ekadharma International Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Khusus,Pengembangan
 ELIT,PT Data Sinergitama Jaya Tbk,Teknologi,Perangkat Lunak & Jasa TI,Jasa & Konsultan TI,Jasa & Konsultan TI,Pengembangan
 ELPI,PT Pelayaran Nasional Ekalya Purnamasari Tbk,Transportasi & Logistik,Logistik & Pengantaran,Logistik & Pengantaran,Logistik & Pengantaran,Utama
@@ -319,7 +319,7 @@ FILM,PT MD Entertainment Tbk,Barang Konsumen Non-Primer,Media & Hiburan,Hiburan 
 FIMP,PT Fimperkasa Utama Tbk,Infrastruktur,Konstruksi Bangunan,Konstruksi Bangunan,Konstruksi Bangunan,Pemantauan Khusus
 FIRE,PT Alfa Energi Investama Tbk.,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Distribusi Batu Bara,Pengembangan
 FISH,FKS Multi Agro Tbk,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,Perkebunan & Tanaman Pangan,Utama
-FITT,PT Hotel Fitra International Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pengembangan
+FITT,PT Fortune Resources Investment Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pengembangan
 FLMC,PT Falmaco Nonwoven Industri Tbk,Barang Konsumen Primer,Produk Rumah Tangga Tidak Tahan Lama,Produk Perawatan Tubuh,Produk Perawatan Tubuh,Akselerasi
 FMII,Fortune Mate Indonesia Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
 FOLK,PT Multi Garam Utama Tbk.,Perindustrian,Perusahaan Holding Multi Sektor,Perusahaan Holding Multi-sektor,Perusahaan Holding Multi-sektor,Pengembangan
@@ -355,7 +355,7 @@ GRIA,PT Ingria Pratama Capitalindo Tbk,Properti & Real Estat,Properti & Real Est
 GRPH,PT Griptha Putra Persada Tbk.,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pengembangan
 GRPM,PT Graha Prima Mentari Tbk.,Barang Konsumen Primer,Makanan & Minuman,Minuman,Minuman Ringan,Akselerasi
 GSMF,Equity Development Investment Tbk,Keuangan,Perusahaan Holding & Investasi,Perusahaan Holding & Investasi,Perusahaan Holding Keuangan,Pengembangan
-GTBO,Garda Tujuh Buana Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pengembangan
+GTBO,Garda Tujuh Buana Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pemantauan Khusus
 GTRA,PT Grahaprima Suksesmandiri Tbk,Transportasi & Logistik,Logistik & Pengantaran,Logistik & Pengantaran,Logistik & Pengantaran,Pengembangan
 GTSI,PT GTS Internasional Tbk,Energi,"Minyak, Gas & Batu Bara",Minyak & Gas,Penyimpanan & Distribusi Minyak & Gas,Pengembangan
 GULA,PT Aman Agrindo Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pengembangan
@@ -386,7 +386,7 @@ HOPE,PT Harapan Duta Pertiwi Tbk.,Perindustrian,Barang Perindustrian,Mesin,Mesin
 HOTL,Saraswati Griya Lestari Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pemantauan Khusus
 HRME,PT Menteng Heritage Realty Tbk.,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pemantauan Khusus
 HRTA,PT Hartadinata Abadi Tbk,Barang Konsumen Non-Primer,Pakaian & Barang Mewah,Pakaian & Barang Mewah,"Pakaian, Aksesoris, & Tas",Utama
-HRUM,Harum Energy Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Utama
+HRUM,Harum Energy Tbk,Barang Baku,Barang Baku,Logam & Mineral,Logam & Mineral Lainnya,Utama
 HUMI,PT Humpuss Maritim Internasional Tbk,Energi,"Minyak, Gas & Batu Bara",Minyak & Gas,Penyimpanan & Distribusi Minyak & Gas,Pengembangan
 HYGN,PT Ecocare Indo Pasifik Tbk.,Perindustrian,Jasa Perindustrian,Jasa Komersial,Jasa Pengelolaan Lingkungan & Sarana,Pengembangan
 IATA,PT Karya Pacific Energy Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Pengembangan
@@ -484,7 +484,7 @@ KING,PT Hoffmen Cleanindo Tbk,Perindustrian,Jasa Perindustrian,Jasa Profesional,
 KINO,PT Kino Indonesia Tbk,Barang Konsumen Primer,Produk Rumah Tangga Tidak Tahan Lama,Produk Perawatan Tubuh,Produk Perawatan Tubuh,Pengembangan
 KIOS,PT Kioson Komersial Indonesia Tbk.,Teknologi,Perangkat Lunak & Jasa TI,Aplikasi & Jasa Internet,Aplikasi & Jasa Internet,Pengembangan
 KJEN,PT Krida Jaringan Nusantara Tbk.,Transportasi & Logistik,Logistik & Pengantaran,Logistik & Pengantaran,Logistik & Pengantaran,Pengembangan
-KKES,PT Kusuma Kemindo Sentosa Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Dasar,Pemantauan Khusus
+KKES,PT Kusuma Kemindo Sentosa Tbk,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Dasar,Pengembangan
 KKGI,Resource Alam Indonesia Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Produksi Batu Bara,Utama
 KLAS,PT Pelayaran Kurnia Lautan Semesta Tbk,Transportasi & Logistik,Logistik & Pengantaran,Logistik & Pengantaran,Logistik & Pengantaran,Pengembangan
 KLBF,Kalbe Farma Tbk,Kesehatan,Farmasi & Riset Kesehatan,Farmasi,Farmasi,Utama
@@ -655,7 +655,7 @@ OLIV,PT Atlas Nexus Group Tbk,Barang Konsumen Non-Primer,Barang Rumah Tangga,Bar
 OMED,PT Jayamas Medica Industri Tbk,Kesehatan,Jasa & Peralatan Kesehatan,Peralatan & Perlengkapan Kesehatan,Penyedia & Distribusi Perlengkapan Kesehatan,Utama
 OMRE,Indonesia Prima Property Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
 OPMS,PT Optima Prima Metal Sinergi Tbk.,Barang Baku,Barang Baku,Logam & Mineral,Baja & Besi,Pengembangan
-PACK,PT Abadi Nusantara Hijau Investama Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Akselerasi
+PACK,PT Abadi Nusantara Hijau Investama Tbk,Barang Baku,Barang Baku,Logam & Mineral,Logam & Mineral Lainnya,Akselerasi
 PADA,PT Personel Alih Daya Tbk,Perindustrian,Jasa Perindustrian,Jasa Profesional,Jasa Personalia,Pengembangan
 PADI,Minna Padi Investama Sekuritas Tbk,Keuangan,Jasa Investasi,Jasa Investasi,Bank Investasi & Perantara Perdagangan,Utama
 PALM,PT Provident Investasi Bersama Tbk,Keuangan,Perusahaan Holding & Investasi,Perusahaan Holding & Investasi,Perusahaan Investasi,Utama
@@ -675,7 +675,7 @@ PEHA,PT Phapros Tbk,Kesehatan,Farmasi & Riset Kesehatan,Farmasi,Farmasi,Pengemba
 PEVE,PT Penta Valent Tbk,Kesehatan,Farmasi & Riset Kesehatan,Farmasi,Farmasi,Pengembangan
 PGAS,PT Perusahaan Gas Negara (Persero) Tbk,Energi,"Minyak, Gas & Batu Bara",Minyak & Gas,Penyimpanan & Distribusi Minyak & Gas,Utama
 PGEO,PT Pertamina Geothermal Energy Tbk,Infrastruktur,Utilitas,Utilitas Listrik,Utilitas Listrik,Utama
-PGJO,PT Bahtera Bumi Raya Tbk,Teknologi,Perangkat Lunak & Jasa TI,Aplikasi & Jasa Internet,Aplikasi & Jasa Internet,Pemantauan Khusus
+PGJO,PT Bahtera Bumi Raya Tbk,Teknologi,Perangkat Lunak & Jasa TI,Aplikasi & Jasa Internet,Aplikasi & Jasa Internet,Akselerasi
 PGLI,Pembangunan Graha Lestari Indah Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,Rumah Makan,Pengembangan
 PGUN,PT Pradiksi Gunatama Tbk,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,Perkebunan & Tanaman Pangan,Pengembangan
 PICO,Pelangi Indah Canindo Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Pengembangan
@@ -749,7 +749,7 @@ RDTX,Roda Vivatex Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pe
 REAL,PT Repower Asia Indonesia Tbk.,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pengembangan
 RELF,PT Graha Mitra Asia Tbk.,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Akselerasi
 RELI,Reliance Sekuritas Indonesia Tbk,Keuangan,Jasa Investasi,Jasa Investasi,Bank Investasi & Perantara Perdagangan,Pengembangan
-RGAS,PT Kian Santang Muliatama Tbk.,Energi,"Minyak, Gas & Batu Bara","Pendukung Minyak, Gas & Batu Bara","Jasa & Perlengkapan Minyak, Gas & Batu Bara",Pemantauan Khusus
+RGAS,PT Kian Santang Muliatama Tbk.,Energi,"Minyak, Gas & Batu Bara","Pendukung Minyak, Gas & Batu Bara","Jasa & Perlengkapan Minyak, Gas & Batu Bara",Pengembangan
 RICY,Ricky Putra Globalindo Tbk,Barang Konsumen Non-Primer,Pakaian & Barang Mewah,Pakaian & Barang Mewah,"Pakaian, Aksesoris, & Tas",Pengembangan
 RIGS,Rig Tenders Tbk,Energi,"Minyak, Gas & Batu Bara",Batu Bara,Distribusi Batu Bara,Pengembangan
 RIMO,PT Rimo International Lestari Tbk.,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pemantauan Khusus
@@ -765,7 +765,7 @@ RSCH,PT Charlie Hospital Semarang Tbk.,Kesehatan,Jasa & Peralatan Kesehatan,Peny
 RSGK,PT Kedoya Adyaraya Tbk,Kesehatan,Jasa & Peralatan Kesehatan,Penyedia Jasa Kesehatan,Penyedia Jasa Kesehatan,Pengembangan
 RUIS,Radiant Utama Interinsco Tbk,Energi,"Minyak, Gas & Batu Bara","Pendukung Minyak, Gas & Batu Bara","Jasa & Perlengkapan Minyak, Gas & Batu Bara",Pengembangan
 RUNS,PT Global Sukses Solusi Tbk,Teknologi,Perangkat Lunak & Jasa TI,Perangkat Lunak,Perangkat Lunak,Akselerasi
-SAFE,Steady Safe Tbk,Transportasi & Logistik,Transportasi,Pengangkutan Darat Penumpang,Transportasi Jalanan,Pengembangan
+SAFE,Steady Safe Tbk,Transportasi & Logistik,Transportasi,Pengangkutan Darat Penumpang,Transportasi Jalanan,Pemantauan Khusus
 SAGE,PT Saptausaha Gemilangindah Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pemantauan Khusus
 SAME,Sarana Meditama Metropolitan Tbk,Kesehatan,Jasa & Peralatan Kesehatan,Penyedia Jasa Kesehatan,Penyedia Jasa Kesehatan,Utama
 SAMF,PT Saraswanti Anugerah Makmur Tbk.,Barang Baku,Barang Baku,Barang Kimia,Barang Kimia Pertanian,Utama
@@ -791,7 +791,7 @@ SIDO,PT Industri Jamu Dan Farmasi Sido Muncul Tbk,Kesehatan,Farmasi & Riset Kese
 SILO,PT Siloam International Hospitals Tbk.,Kesehatan,Jasa & Peralatan Kesehatan,Penyedia Jasa Kesehatan,Penyedia Jasa Kesehatan,Utama
 SIMA,Siwani Makmur Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Pemantauan Khusus
 SIMP,Salim Ivomas Pratama Tbk,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,Perkebunan & Tanaman Pangan,Utama
-SINI,PT Singaraja Putra Tbk.,Perindustrian,Barang Perindustrian,Produk & Perlengkapan Bangunan,Produk & Perlengkapan Bangunan,Pemantauan Khusus
+SINI,PT Singaraja Putra Tbk.,Perindustrian,Barang Perindustrian,Produk & Perlengkapan Bangunan,Produk & Perlengkapan Bangunan,Pengembangan
 SIPD,PT Sreeya Sewu Indonesia Tbk,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,"Ikan, Daging & Produk Unggas",Pengembangan
 SKBM,Sekar Bumi Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pengembangan
 SKLT,Sekar Laut Tbk,Barang Konsumen Primer,Makanan & Minuman,Makanan Olahan,Makanan Olahan,Pengembangan
@@ -848,7 +848,7 @@ SURI,PT Maja Agung Latexindo Tbk.,Kesehatan,Jasa & Peralatan Kesehatan,Peralatan
 SWAT,PT Sriwahana Adityakarta Tbk.,Barang Baku,Barang Baku,Perhutanan & Kertas,Kertas,Pemantauan Khusus
 SWID,PT Saraswanti Indoland Development Tbk,Barang Konsumen Non-Primer,Jasa Konsumen,Pariwisata & Rekreasi,"Hotel, Resor & Kapal Pesiar",Pengembangan
 TALF,PT Tunas Alfin Tbk,Barang Baku,Barang Baku,Wadah & Kemasan,Wadah & Kemasan,Pengembangan
-TAMA,PT Lancartama Sejati Tbk.,Infrastruktur,Konstruksi Bangunan,Konstruksi Bangunan,Konstruksi Bangunan,Pengembangan
+TAMA,PT Lancartama Sejati Tbk.,Infrastruktur,Konstruksi Bangunan,Konstruksi Bangunan,Konstruksi Bangunan,Pemantauan Khusus
 TAMU,PT Pelayaran Tamarin Samudra Tbk.,Energi,"Minyak, Gas & Batu Bara","Pendukung Minyak, Gas & Batu Bara","Jasa & Perlengkapan Minyak, Gas & Batu Bara",Pemantauan Khusus
 TAPG,PT Triputra Agro Persada Tbk.,Barang Konsumen Primer,Makanan & Minuman,Produk Makanan Pertanian,Perkebunan & Tanaman Pangan,Utama
 TARA,PT Agung Semesta Sejahtera Tbk,Properti & Real Estat,Properti & Real Estat,Pengelola & Pengembang Real Estat,Pengembang & Operator Real Estat,Pemantauan Khusus
